@@ -16,7 +16,7 @@ Here,we used Mysql DB
 MSQL DB Installation Steps for Linux ubuntu 14.04:
 - $ sudo apt-get update
 - $ sudo apt-get install mysql-server
-- $ sudo apt install mysql-server -y
+- $ sudo apt install mysql-server -yx
 
 Then look for the file :
 - /src/main/resources/accountsdb
