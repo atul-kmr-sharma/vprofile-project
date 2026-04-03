@@ -8,6 +8,7 @@ public class StandaloneMvcTestViewResolver extends InternalResourceViewResolver 
 
     public StandaloneMvcTestViewResolver() {
         super();
+    // this the constructor call for the base class    
     }
 
     @Override
