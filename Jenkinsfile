@@ -59,6 +59,7 @@ pipeline {
                 success {
                     echo 'Image Uploaded Successfully'
                     sh 'docker system prune -af'
+					echo 'Unused Images Deleted Successfully'
                 }
             }
      }
